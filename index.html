@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3-Hockey</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-family {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        paracolor: '#94A3B8',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-family">
+    <header class="container mx-auto">
+        <nav>
+
+        </nav>
+        <section class="my-8">
+            <div class="carousel w-full">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/caro img1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle text-white bg-slate-800">❮</a>
+                        <a href="#slide2" class="btn btn-circle text-white bg-slate-800">❯</a>
+                    </div>
+                    <div class=" w-full absolute lg:w-[500px] py-4 pl-8 text-white bg-stone-800 lg:rounded-xl lg:bottom-10 lg:right-10">
+                        <h1 class="text-xl font-extrabold">Meet al the heroes from the field</h1>
+                        <p class="text-slate-400">Sports invites you to embark on an inspiring journey through the diverse
+                            and impactful world of heroes.It promises a closer look at the individuals to true heroes.</p>
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/caro img1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle text-white bg-slate-800">❮</a>
+                        <a href="#slide3" class="btn btn-circle text-white bg-slate-800">❯</a>
+                    </div>
+                    <div
+                        class="lg:absolute lg:w-[500px] py-4 pl-8 text-white bg-stone-800 rounded-xl lg:bottom-10 lg:right-10">
+                        <h1 class="text-xl font-extrabold">Meet al the heroes from the field</h1>
+                        <p class="text-slate-400">Sports invites you to embark on an inspiring journey through the
+                            diverse and impactful world of heroes.It promises a closer look at the individuals to true
+                            heroes.</p>
+                    </div>
+                </div>
+
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./Images/caro img1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle text-white bg-slate-800">❮</a>
+                        <a href="#slide4" class="btn btn-circle text-white bg-slate-800">❯</a>
+                    </div>
+                    <div
+                        class="lg:absolute lg:w-[500px] py-4 pl-8 text-white bg-stone-800 rounded-xl lg:bottom-10 lg:right-10">
+                        <h1 class="text-xl font-extrabold">Meet al the heroes from the field</h1>
+                        <p class="text-slate-400">Sports invites you to embark on an inspiring journey through the
+                            diverse and impactful world of heroes.It promises a closer look at the individuals to true
+                            heroes.</p>
+                    </div>
+                </div>
+                <!-- slide 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./Images/caro img1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle text-white bg-slate-800">❮</a>
+                        <a href="#slide1" class="btn btn-circle text-white bg-slate-800">❯</a>
+                    </div>
+                    <div
+                        class=" absolute lg:w-[500px] py-4 pl-8 text-white bg-stone-800 rounded-xl lg:bottom-10 lg:right-10">
+                        <h1 class="text-xl font-extrabold">Meet al the heroes from the field</h1>
+                        <p class="text-slate-400">Sports invites you to embark on an inspiring journey through the
+                            diverse and impactful world of heroes.It promises a closer look at the individuals to true
+                            heroes.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="lg:w-[500px] py-4 pl-8 text-white bg-stone-800 rounded-xl transform translate-x-[450px] ">
+                <div class="lg:flex lg:flex-col justify-center">
+                    <h1 class="text-xl font-extrabold">Meet al the heroes from the field</h1>
+                    <p class="text-slate-400">Sports invites you to embark on an inspiring journey through the diverse
+                        and
+                        impactful world of heroes.It promises a closer look at the individuals to true heroes.</p>
+                </div>
+            </div> -->
+        </section>
+        <!-- Professional Hockey Club -->
+        <section>
+            <div class="text-center my-16 space-y-8 border-y-2 border-dashed px-4 py-12">
+                <h2 class="text-5xl font-extrabold">Professional Hockeys Club</h2>
+                <p class="text-paracolor px-48">professional hockey club is a symbol of athletic prowess, resilience, and the unbreakable bond between a team and its fans. A professional hockey club represents the pinnacle of competitive ice hockey, bringing together skilled athletes to compete at the highest levels of the sport.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-4 text-center gap-6 mb-12">
+                <div class="space-y-4 p-7">
+                    <div class="flex justify-center items-center">
+                        <img src="./Icons/Group 9 (4).png" alt="">
+                    </div>
+                    <h3 class="text-lg font-bold">Prayer Facility</h3>
+                    <p class="text-paracolor">A prayer facility is a sacred space designed to provide individuals with a environment for prayer, meditation, and spiritual reflection. </p>
+                </div>
+                <div class="space-y-4 p-7">
+                    <div class="flex justify-center items-center">
+                        <img src="./Icons/Group 9 (3).png" alt="">
+                    </div>
+                    <h3 class="text-lg font-bold">Experienced coach</h3>
+                    <p class="text-paracolor">A prayer facility is a sacred space designed to provide individuals with a environment for prayer, meditation, and spiritual reflection. </p>
+                </div>
+                <div class="space-y-4 p-7">
+                    <div class="flex justify-center items-center">
+                        <img src="./Icons/Group 9 (2).png" alt="">
+                    </div>
+                    <h3 class="text-lg font-bold">Senior Player</h3>
+                    <p class="text-paracolor">A prayer facility is a sacred space designed to provide individuals with a environment for prayer, meditation, and spiritual reflection. </p>
+                </div>
+                <div class="space-y-4 p-7">
+                    <div class="flex justify-center items-center">
+                        <img src="./Icons/Group 9 (5).png" alt="">
+                    </div>
+                    <h3 class="text-lg font-bold">Training Ground</h3>
+                    <p class="text-paracolor">A prayer facility is a sacred space designed to provide individuals with a environment for prayer, meditation, and spiritual reflection. </p>
+                </div>
+                
+            </div>
+        </section>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
